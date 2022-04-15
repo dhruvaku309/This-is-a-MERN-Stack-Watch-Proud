@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactNavbar } from "overlay-navbar";
 import logo from "../../../images/logo.webp";
+import {FaUserAlt} from "react-icons/fa";
 
 const options = {
   burgerColorHover: "#bcb908",
@@ -25,7 +26,8 @@ const options = {
   nav4justifyContent: "flex-start",
   link1ColorHover: "#bdbb05",
   link1Margin: "1vmax",
-  profileIconUrl: "/login",
+  profileIcon: true,
+  profileIconElement: FaUserAlt,
   profileIconColor: "rgba(35, 35, 35,0.8)",
   searchIconColor: "rgba(35, 35, 35,0.8)",
   cartIconColor: "rgba(35, 35, 35,0.8)",
